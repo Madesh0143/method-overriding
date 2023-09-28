@@ -38,7 +38,6 @@ class Savings extends Acount
 {
 	double rateOfintrest; 
 	
-	
 	public Savings(double rateOfintrest,long Acc_no,String Owner_name)
 	{
 		super(Acc_no,Owner_name); //--> Initilize parent class data members using " Super(); " keywords to achive object class
